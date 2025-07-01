@@ -65,3 +65,16 @@ A lightweight Node.js framework used to build RESTful APIs and manage server-sid
 A NoSQL database used to store unstructured or flexible data formats, such as user activity logs, reviews, or search histories, enabling scalable data storage.
 
 "Add technology stack section to README.md"
+
+## Database Design
+
+| Entity     | Related To | Type of Relationship                |
+| ---------- | ---------- | ----------------------------------- |
+| Users      | Properties | One user can have many properties   |
+| Users      | Bookings   | One user can have many bookings     |
+| Properties | Bookings   | One property can have many bookings |
+| Users      | Reviews    | One user can have many reviews      |
+| Properties | Reviews    | One property can have many reviews  |
+| Bookings   | Payments   | One booking has one payment         |
+
+"Add database design section to READE.md"
