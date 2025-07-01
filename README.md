@@ -105,3 +105,67 @@ Allows users to search for properties based on location, price, and amenities, e
 Ensures seamless access across devices, maintaining visual consistency and usability on mobile, tablet, and desktop.
 
 "Add feature breakdown section to READEM.md"
+
+## API Security
+
+Security is critical in the Airbnb Clone Project to protect user data, ensure safe transactions, and maintain platform integrity. Below are the key security measures implemented in this project:
+
+### 1️⃣ Authentication
+We will implement **secure user authentication** using JWT (JSON Web Tokens) or session-based authentication to ensure that only legitimate users can access the platform. Passwords will be hashed using bcrypt to prevent plain-text password storage.
+
+**Why it is crucial:** Authentication ensures that users accessing the platform are verified, protecting user accounts and sensitive data from unauthorized access.
+
+---
+
+### 2️⃣ Authorization
+Role-based authorization will be used to control access to resources based on user roles (guest, host, admin). Middleware will verify user permissions before granting access to protected routes and actions such as property management or booking administration.
+
+**Why it is crucial:** Authorization ensures that users can only access features and data relevant to their roles, preventing unauthorized modifications and data breaches.
+
+---
+
+### 3️⃣ Data Validation and Sanitization
+All user inputs will be validated and sanitized on both client-side and server-side to prevent injection attacks such as SQL Injection, NoSQL Injection, and XSS (Cross-Site Scripting).
+
+**Why it is crucial:** Data validation prevents malicious inputs that could exploit vulnerabilities, protecting the platform and users’ data integrity.
+
+---
+
+### 4️⃣ HTTPS and Secure Communication
+The application will enforce HTTPS using SSL/TLS certificates to ensure encrypted data transmission between the client and server.
+
+**Why it is crucial:** HTTPS protects sensitive user data (such as login credentials and payment information) from being intercepted during transmission.
+
+---
+
+### 5️⃣ Rate Limiting and Throttling
+Rate limiting will be implemented on API endpoints to prevent abuse and denial-of-service attacks by limiting the number of requests a user or IP can make within a certain timeframe.
+
+**Why it is crucial:** Rate limiting protects the server from excessive requests that could lead to performance issues or downtime, ensuring availability for legitimate users.
+
+---
+
+### 6️⃣ Secure Payment Handling
+Payments will be handled through secure, PCI-compliant payment gateways (e.g., Stripe, PayPal) to ensure the security of financial transactions without storing sensitive payment data on our servers.
+
+**Why it is crucial:** Securing payment processes protects users’ financial information and builds trust in the platform.
+
+---
+
+### 7️⃣ Database Security
+Access to databases will be restricted using environment variables for credentials, and regular backups will be maintained. Indexes and optimized queries will also be used to prevent resource exhaustion.
+
+**Why it is crucial:** Database security ensures data confidentiality, availability, and integrity, protecting the system from data breaches and corruption.
+
+---
+
+### 8️⃣ Logging and Monitoring
+Activity logs and monitoring systems will be used to track suspicious activities and server errors, allowing for rapid response to potential security incidents.
+
+**Why it is crucial:** Monitoring helps detect and respond to security threats early, maintaining the platform’s stability and user trust.
+
+---
+
+By implementing these security measures, the Airbnb Clone Project will ensure user data protection, secure transactions, and system stability, building trust with users and providing a safe rental platform experience.
+
+"Add API security section to READE.md"
