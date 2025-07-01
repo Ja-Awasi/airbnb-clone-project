@@ -78,3 +78,30 @@ A NoSQL database used to store unstructured or flexible data formats, such as us
 | Bookings   | Payments   | One booking has one payment         |
 
 "Add database design section to READE.md"
+
+## Feature Breakdown
+
+## Main Features
+
+### User Management
+Allows users to register, log in, and manage profiles securely with role-based access, ensuring a personalized and secure experience.
+
+### Property Management
+Enables hosts to list, edit, and manage properties with detailed descriptions and photos, ensuring an up-to-date catalog for users.
+
+### Booking System
+Allows guests to view property availability and make bookings for specific dates, forming the core of the application’s transaction flow.
+
+### Payment Integration
+Facilitates secure payment processing for bookings with methods like credit cards and PayPal, ensuring smooth and trackable transactions.
+
+### Review and Rating System
+Enables guests to leave reviews and ratings for properties, fostering transparency and accountability on the platform.
+
+### Search and Filter Functionality
+Allows users to search for properties based on location, price, and amenities, enhancing the user experience.
+
+### Responsive User Interface
+Ensures seamless access across devices, maintaining visual consistency and usability on mobile, tablet, and desktop.
+
+"Add feature breakdown section to READEM.md"
