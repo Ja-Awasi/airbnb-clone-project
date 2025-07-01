@@ -41,3 +41,27 @@ Tests the application for bugs, usability issues, and performance problems. Crea
 
 
 "Add Team Roles section to README.md"
+
+## Technology Stack
+
+A high-level Python web framework used for building RESTful APIs and server-side logic for the Airbnb clone, providing robust authentication, routing, and admin interfaces.
+
+### 2. PostgreSQL
+A powerful open-source relational database used to store structured data such as user profiles, bookings, property listings, and transaction records efficiently and securely.
+
+### 3. GraphQL
+A query language for APIs enabling flexible and efficient data fetching, allowing the frontend to request only the necessary data from the backend, reducing over-fetching.
+
+### 4. React
+A JavaScript library for building responsive and interactive user interfaces for the frontend of the Airbnb clone, enhancing user experience with dynamic component rendering.
+
+### 5. Node.js
+A JavaScript runtime environment used for executing server-side code, enabling the development of scalable backend services and real-time functionalities for the application.
+
+### 6. Express.js
+A lightweight Node.js framework used to build RESTful APIs and manage server-side routes, middleware, and HTTP requests within the backend of the application.
+
+### 7. MongoDB
+A NoSQL database used to store unstructured or flexible data formats, such as user activity logs, reviews, or search histories, enabling scalable data storage.
+
+"Add technology stack section to README.md"
