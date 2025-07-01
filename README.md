@@ -172,8 +172,6 @@ By implementing these security measures, the Airbnb Clone Project will ensure us
 
 ## CI/CD Pipeline
 
-## CI/CD Pipelines
-
 ### What are CI/CD Pipelines?
 
 **CI/CD (Continuous Integration/Continuous Deployment) pipelines** automate the process of building, testing, and deploying applications. CI ensures that code changes are automatically tested and integrated into the main codebase, while CD automates the deployment of the tested code to production environments.
